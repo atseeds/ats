@@ -1,0 +1,37 @@
+{
+  "name": "ats",
+  "version": "1.0.0",
+  "description": "An enterprise-class UI design language and React UI library.",
+  "main": "lib/index.js",
+  "types":"lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atseeds/ats.git"
+  },
+  "keywords": [
+    "ats",
+    "component",
+    "components",
+    "design",
+    "framework",
+    "frontend",
+    "react",
+    "react-component",
+    "ui"
+  ],
+  "author": "ATS <atseeds22@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atseeds/ats/issues"
+  },
+  "homepage": "https://github.com/atseeds/ats#readme",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["lib/**/*"]
+}
